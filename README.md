@@ -1,1 +1,1 @@
-# full_stack_medicin_delevary
+# full_stack_medicine_del
