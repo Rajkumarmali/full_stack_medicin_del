@@ -1,0 +1,52 @@
+.a4-size-page {
+    width: 210mm; /* A4 width in millimeters */
+    height: 297mm; /* A4 height in millimeters */
+    margin: 0 auto;
+    padding: 5mm; /* Margins for content */
+    border: 1px solid #000; /* Border style */
+    background: white; /* White background */
+    color: #000;
+    /* Additional styles for printing */
+    font-family: Arial, sans-serif;
+    position: relative; /* Set positioning context for child elements */
+}
+
+.image {
+    position: absolute;
+    top: 120px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    width: 200px;
+    height: 200px;
+}
+.img_sig{
+
+}
+.doctor_detail{
+    text-align: left; /* Align the content to the left */
+    margin-top: 50px;
+    
+
+}
+.signature{
+    position: absolute;
+  bottom: 150px;
+  left: 50px;
+  text-align: left;
+  padding: 10px;
+
+}
+.signature img{
+    position: absolute;
+    top: 50px;
+    right:0px; 
+    left: 0px;
+    width: 200px;
+    height: 40px;
+}
+
+.signature button{
+    position: absolute;
+    color: #000;
+    top:40px;
+    left:600px
+}
